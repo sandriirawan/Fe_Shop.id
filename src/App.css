@@ -1,0 +1,402 @@
+
+  * {
+    font-family: 'Metropolis', sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    overflow-x: hidden;
+    background-color: white;
+  }
+  
+  p{
+    color: #9B9B9B;
+  }
+  a:link,
+  a:visited {
+    text-decoration: none !important;
+    color: black;
+    cursor: pointer !important;
+  }
+  
+  /* ============== index navbar================== */
+  #navbar-index .input {
+    width: 600px;
+    border-radius: 25px !important;
+  }
+  #navbar-index .logo-shopid {
+      margin-bottom: 15px;
+      margin-left: 100px;
+    }
+    #navbar-index .rounded-pill {
+    width: 100px;
+  }
+  #navbar-index .navbar {
+    background: #ffffff;
+    box-shadow: 0px 6px 40px rgba(173, 173, 173, 0.25);
+  }
+  #navbar-index .text-login {
+    background-color: rgba(219, 48, 34, 1);
+  }
+  #navbar-index .text-login.btn {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  #navbar-index .text-login.btn:hover{
+    background-color: rgb(255, 21, 0);
+  }
+  #navbar-index .text-register {
+    background-color: white;
+    color: black;
+  }
+  #navbar-index .text-register a:hover{
+    color: black;
+    text-decoration: none;
+  }
+  #navbar-index .text-register.btn:hover{
+    background-color: grey;
+  }
+  
+  @media (max-width: 576px) {
+    #navbar-index .navbar-collapse {
+      background-color: #ffffff;
+    }
+  
+    #navbar-index .navbar {
+      height: 80px;
+    }
+  
+    #navbar-index .logo-shopid {
+      margin-bottom: 15px;
+      margin-left: 50px;
+    }
+  
+    #navbar-index .navbar-nav {
+      margin-left: 20px;
+    }
+  
+    #navbar-index  #navbar-index .input {
+      width: 100%;
+      border-radius: 15px;
+    }
+  
+    #navbar-index .form-inline {
+      margin-left: 15px;
+      margin-top: 10px;
+    }
+  }
+  /* ============== end index navnbar ================== */
+  
+  
+  /* ============== index ================== */
+  .carousel {
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+  }
+  p {
+    color: #9b9b9b;
+  }
+  .product {
+    background: #ffffff;
+    box-shadow: 0px 0px 14px rgba(173, 173, 173, 0.25);
+  }
+  .category{
+  padding-left: 30px;
+  }
+  @media (max-width: 576px) {
+    .title{
+      text-align: center;
+    }
+    .category{
+     width: 100%;
+     padding-left: 30px;
+    }
+    .img-category{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+    }
+  }  
+  /* ============== end index ================== */
+  
+  
+  /* ============== modal filter ================== */
+  #navbar #filter .modal-header {
+    padding: 20px 20px;
+    box-shadow: 0px 0px 6px 0px rgba(53, 50, 50, 0.25);
+  }
+  
+  #filter .modal-body {
+    background-color: lightgrey;
+    padding: 0;
+  }
+  
+  #filter .text-color {
+    color: black;
+    font-weight: 600;
+  }
+  
+  #filter .container {
+    background-color: white;
+    padding: 20px 20px;
+  }
+  
+  #filter .color-pallets .btn-color {
+    padding: 3px;
+    margin-right: 12px;
+    border-radius: 50%;
+    box-shadow: 2px 5px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  #filter .color-pallets .btn-color:focus,
+  .btn-color:active {
+    background-color: rgba(219, 48, 34, 1);
+    color: white;
+    border: none;
+  }
+  
+  #filter .size-charts .btn-size {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    margin-right: 12px;
+  }
+  
+  #filter .list-categories .btn-category {
+    width: 100%;
+    height: 40px;
+    border: 1px solid black;
+    margin-right: 12px;
+  }
+  
+  #filter .list-categories .btn-category:focus,
+  .btn-category:active {
+    color: white;
+    background-color: rgba(219, 48, 34, 1);
+    border: none;
+  }
+  
+  #filter .size-charts .btn-size:focus,
+  .btn-size:active {
+    background-color: rgba(219, 48, 34, 1);
+    color: white;
+    border: none;
+  }
+  
+  #filter .color-pallets .btn-color:active {
+    border: 1px solid rgba(219, 48, 34, 1);
+  }
+  
+  #filter .form-select {
+    width: 100%;
+    border: none;
+    padding: 5px;
+  }
+  
+  #filter .modal-footer {
+    box-shadow: 0px -8px 10px 0px rgba(217, 217, 217, 0.25);
+  }
+  
+  #filter .modal-footer .btn-discard {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 24px;
+  }
+  
+  #filter .modal-footer .btn-apply {
+    width: 100%;
+    color: white;
+    border: none;
+    border-radius: 24px;
+    background-color: rgba(219, 48, 34, 1);
+  }
+  
+  #filter .modal-footer .btn-apply:hover {
+    background-color: rgb(173, 0, 0);
+    color: white;
+  }
+  
+  #filter .modal-footer .btn-discard:hover {
+    background-color: lightgrey;
+    border: none;
+  }
+  
+  /* ============== end modal filter ================== */
+  
+  /* ========================== navbar ============================== */
+
+                
+
+  #navbar .input {
+    width: 507px;
+    border-radius: 25px;
+  }
+  
+  #navbar .navbar {
+    background: #ffffff;
+    box-shadow: 0px 6px 40px rgba(173, 173, 173, 0.25);
+    height: 100px;
+  }
+  
+  #navbar .logo {
+    margin-left: 100px;
+  }
+  
+  #navbar .navbar-nav {
+    margin-left: 100px;
+  
+  }
+  
+  #navbar .form-inline {
+    margin-left: 15px;
+  }
+  
+  #navbar .filter {
+    font-size: 18px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px 10px 5px;
+    color: grey;
+  }
+  
+  #navbar .filter:hover,
+  #navbar .cart:hover,
+  #navbar .bell:hover,
+  #navbar .massage:hover,
+  #navbar .profile:hover {
+    color: rgba(219, 48, 34, 1);
+  }
+  
+  #navbar .search {
+    position: absolute;
+    margin-left: 575px;
+    color: grey;
+  }
+  
+  #navbar .cart {
+    font-size: 24px;
+    margin-right: 24px;
+    margin-left: 100px;
+    color: grey;
+  }
+  
+  #navbar .bell {
+    font-size: 24px;
+    margin-right: 24px;
+    color: grey;
+  }
+  
+  #navbar .massage {
+    font-size: 24px;
+    margin-right: 24px;
+    color: grey;
+  }
+  
+  #navbar .profile {
+    font-size: 32px;
+    margin-right: 24px;
+    color: grey;
+  }
+  
+  /* Media Query untuk perangkat dengan lebar layar <= 768px */
+  @media (max-width: 768px) {
+    #navbar .navbar-collapse {
+      background-color: #ffffff;
+    }
+  
+    #navbar .navbar {
+      height: 80px;
+    }
+  
+    #navbar .logo {
+      margin-bottom: 15px;
+      margin-left: 20px;
+    }
+  
+    #navbar .navbar-nav {
+      margin-left: 20px;
+    }
+  
+    #navbar .input {
+      width: 100%;
+      border-radius: 15px;
+    }
+  
+    #navbar .form-inline {
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+  
+    #navbar .filter {
+      font-size: 20px;
+      margin-right: 20px;
+      border-style: none;
+    }
+  
+    #navbar .profile {
+      font-size: 30px;
+      margin-left: 40px;
+    }
+  
+    #navbar .cart,
+    .bell,
+    .massage {
+      font-size: 20px;
+      margin-left: 40px;
+    }
+  }
+  
+  /* Media Query untuk perangkat dengan lebar layar <= 576px */
+  @media (max-width: 576px) {
+    #navbar .navbar-collapse {
+      background-color: #ffffff;
+    }
+  
+    #navbar .navbar {
+      height: 75px;
+    }
+  
+    #navbar .logo {
+      margin-bottom: 15px;
+      margin-left: 20px;
+    }
+  
+    #navbar .navbar-nav {
+      margin-left: 20px;
+    }
+  
+    #navbar .input {
+      width: 100%;
+      border-radius: 15px;
+    }
+  
+    #navbar .filter {
+      font-size: 20px;
+      margin-right: 15px;
+      border-style: none;
+    }
+  
+    #navbar .form-inline {
+      margin-left: 15px;
+      margin-top: 10px;
+    }
+  
+    #navbar .profile {
+      font-size: 28px;
+      margin-left: 15px;
+    }
+  
+    #navbar .cart,
+    .bell,
+    .massage {
+      font-size: 20px;
+      margin-left: 15px;
+    }
+  }
+  
+  /* ========================== end navnar ============================== */

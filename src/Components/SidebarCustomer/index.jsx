@@ -31,34 +31,34 @@ function sidebarCustomer() {
       </div>
       <div className="main">
         <div className="list-item">
-          <button>
+          <h6>
             <img
               className="icon-profile bg-primary"
               src={icon1}
               alt=""
             />
             <span className="description active ms-3">My account</span>{" "}
-          </button>
+          </h6>
         </div>
         <div className="list-item">
-          <button>
+          <h6>
             <img
               className="icon-profile bg-warning"
               src={icon2}
               alt=""
             />
             <span className="description ms-3">Shipping Address</span>{" "}
-          </button>
+          </h6>
         </div>
         <div className="list-item">
-          <button>
+          <h6>
             <img
               className="icon-profile bg-danger"
               src={icon3}
               alt=""
             />
             <span className="description ms-3">My Order</span>{" "}
-          </button>
+          </h6>
         </div>
       </div>
     </div>

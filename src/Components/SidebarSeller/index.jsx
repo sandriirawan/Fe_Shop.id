@@ -45,44 +45,44 @@ function SidebarSeller() {
     </div>
     <div className="main">
       <div className="list-item">
-        <button>
+        <h6>
           <img
             className="icon-profile bg-primary"
             src={icon1}
             alt=""
           />
           <span className="description active ms-3">Store</span>{" "}
-        </button>
+        </h6>
       </div>
       <div className="list-item">
-        <button>
+        <h6>
           <img
             className="icon-profile bg-warning"
             src={icon2}
             alt=""
           />
           <span onClick={myproduct} className="description ms-3 active">Product</span>
-        </button>
+        </h6>
       </div>
       <div className="list-item">
-        <button  className="description ms-3 ml-5">
+        <h6  className="description ms-3 ml-5">
           <span onClick={myproduct}>My Product</span>
-        </button>
+        </h6>
       </div>
       <div className="list-item">
-        <button  className="description ms-3 ml-5">
+        <h6  className="description ms-3 ml-5">
           <span onClick={myproduct}>Selling Product</span>
-        </button>
+        </h6>
       </div>
       <div className="list-item">
-        <button >
+        <h6 >
           <img
             className="icon-profile bg-danger"
             src={icon3}
             alt=""
           />
           <span className="description ms-3 active">Order</span>{" "}
-        </button>
+        </h6>
       </div>
     </div>
   </div>
